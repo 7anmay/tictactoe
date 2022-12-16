@@ -45,11 +45,3 @@ This is a single player tictactoe game. The game has a 3 difficulty level bot wh
 The App class acts as an entrypoint into the game. The Board class defines the playboard used to play the game  and itsel is acts as the playfield. The class Bot is the computer player that plays the game in 3 different difficulty levels which are choosen on by random. State of the game and turn taken by the players are managed by Game class, it updates the state of the game quickly by taking in input from the GUI, basically it acts as a interface between the game and the user.    
 
 ```
-
-## Rubrik Criterias 
-```
-a. The project uses Object Oriented Programming techniques
-b. Classes use appropriate access specifiers for class members. Classes encapsulate behavior. Classes abstract implementation details from their interfaces.
-c. The project accepts user input and processes the input. using the sdl library
-
-```
